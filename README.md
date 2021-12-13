@@ -17,6 +17,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+
+From here you'll see the landing page that will require you to login with you google account to start using the app.
+simply hit the ``Login with google to chat!`` and you're good to go.
+
 ## Design Explanation
 I have programmed my solution following object oriented and functional programming structure, as well the requirement given from the assement.
 I built the app to the best of my ability, I however believe that there are things to learn and to improve.
