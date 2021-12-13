@@ -46,32 +46,3 @@ Thank you very much for your time and consideration, and have a great day.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-It's importand to let you know that the project description and the README.md file will be updated soon.
-
-
-
-
-
-
-
-
