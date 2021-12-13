@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import firebase from "firebase";
 import { Input, Button } from "@material-ui/core";
 import { auth, db } from "../firebase";
+import '../App.css'
 
 const SendMessge = ({ scroll }) => {
   const [msg, setMsg] = useState("");
-
+  
   const sendMessage = async (e) => {
     e.preventDefault();
     const { uid, photoURL } = auth.currentUser;
@@ -33,11 +34,16 @@ const SendMessge = ({ scroll }) => {
               marginBottom: "-3px",
               fontWeight: "none",
             }}
-            placeholder="Message..."
+            placeholder="Type message..."
             type="text"
             value={msg}
             onChange={(e) => setMsg(e.target.value)}
           />
+          <div className="icons">
+          <i class="fas fa-plus-circle"></i>
+          <i class="fas fa-paperclip"></i>
+          <i class="fas fa-frown"></i>
+          </div>
           <Button
             className="submitBtn"
             style={{
