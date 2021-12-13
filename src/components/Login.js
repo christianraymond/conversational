@@ -10,9 +10,6 @@ const Login = () => {
   }
   return (
     <>
-      <h4>
-        Hey, please <i class="fas fa-hand-point-down"></i>
-      </h4>
       &nbsp;
       <div
         style={{
