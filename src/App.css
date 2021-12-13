@@ -1,9 +1,12 @@
-.landing-page {
-  background: 'white';
-  display: "flex";
-  justify-content: "center";
-  height: "100vh";
-  align-items: "center";
+.icons{
+  display: flex;
+}
+i.fa-plus-circle {
+  color: #df511d;
+}
+i {
+  cursor: pointer;
+  padding: 5px;
 }
 img {
   border-radius: 50%;
@@ -43,7 +46,7 @@ p {
   width: 100%;
   bottom: 0;
   z-index: 1;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid transparent;
   margin-left: -5px;
   padding: 10px;
   padding-bottom: 30px;

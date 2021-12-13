@@ -9,26 +9,31 @@ const Login = () => {
     auth.signInWithPopup(provider);
   }
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        height: "100vh",
-        alignItems: "center",
-      }}
-    >
-      <Button
+    <>
+      <h4>
+        Hey, please <i class="fas fa-hand-point-down"></i>
+      </h4>
+      &nbsp;
+      <div
         style={{
-          fontSize: "16px",
-          background: "#f4511e",
-          border: "none",
-          color: "white",
+          display: "flex",
+          justifyContent: "center",
+          height: "100vh",
+          alignItems: "center",
         }}
-        onClick={loginWithGoggle}
       >
-        Login With Google to Chat!
-      </Button>
-    </div>
+        <Button
+          style={{
+            background: "#4285F4",
+            border: "none",
+            color: "white",
+          }}
+          onClick={loginWithGoggle}
+        >
+          Login With Google to Chat!
+        </Button>
+      </div>
+    </>
   );
 };
 
