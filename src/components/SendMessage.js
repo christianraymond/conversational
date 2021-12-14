@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import firebase from "firebase";
 import { Input, Button } from "@material-ui/core";
 import { auth, db } from "../firebase";
-import '../App.css'
-
 const SendMessge = ({ scroll }) => {
   const [msg, setMsg] = useState("");
-  
+
   const sendMessage = async (e) => {
     e.preventDefault();
     const { uid, photoURL } = auth.currentUser;
@@ -39,18 +37,19 @@ const SendMessge = ({ scroll }) => {
             value={msg}
             onChange={(e) => setMsg(e.target.value)}
           />
+          {/* Temporaty icons to be made functional */}
           <div className="icons">
-          <i class="fas fa-plus-circle"></i>
-          <i class="fas fa-paperclip"></i>
-          <i class="fas fa-frown"></i>
+            <i class="fas fa-plus-circle"></i>
+            <i class="fas fa-paperclip"></i>
+            <i class="fas fa-frown"></i>
           </div>
           <Button
             className="submitBtn"
             style={{
               background: "#df511d",
               color: "#fff",
-              width: "10%",
-              fontSize: "10px",
+              width: "5%",
+              fontSize: "9px",
               margin: "14px 5% -13px 5%",
               maxWidth: "200px",
               textTransform: "Capitalize",

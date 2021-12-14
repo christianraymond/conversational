@@ -10,7 +10,6 @@ const Logout = () => {
         justifyContent: "center",
         position: "fixed",
         width: "100%",
-        backgroundColor: "#FFC0C7",
         top: 0,
         borderBottom: "solid 1px lightgray",
         zIndex: "10",

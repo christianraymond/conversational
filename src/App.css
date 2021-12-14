@@ -1,4 +1,7 @@
-.icons{
+body {
+  background: #e8e8e8;
+}
+.icons {
   display: flex;
 }
 i.fa-plus-circle {
@@ -10,8 +13,9 @@ i {
 }
 img {
   border-radius: 50%;
-  height: 15px;
+  height: 20px;
   margin-top: -2px;
+  padding: 5px;
 }
 
 p {
@@ -26,6 +30,7 @@ p {
 .msg {
   display: flex;
   align-items: center;
+  padding: 3px;
 }
 
 .sent {
@@ -34,11 +39,12 @@ p {
   flex-direction: row-reverse;
   padding: 0 20px;
   text-align: end;
+  border-radius: 40px 25px;
 }
 
 .received {
   background-color: #fafafa;
-  border-top-left-radius: 1000px;
+  border-radius: 40px 25px;
 }
 .sendMsg {
   position: fixed;

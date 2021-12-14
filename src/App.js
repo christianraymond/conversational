@@ -1,4 +1,3 @@
-import "./App.css";
 import Chat from "./components/Chat";
 import Login from "./components/Login";
 import { auth } from "./firebase.js";
