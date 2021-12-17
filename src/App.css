@@ -31,6 +31,7 @@ p {
   display: flex;
   align-items: center;
   padding: 3px;
+  margin: 5px;
 }
 
 .sent {
